@@ -33,14 +33,28 @@ public class MyJavaClass {
 		System.out.println(salary+position+phoneNumber);
 	}
 	
+	    static String name;
+	    static int age;
+	    static String grade;   
+	
 	public static void getNidhiinfo() {
+	
+		name ="Nidhi";
+		age =14;
+		grade = "9th";
+		System.out.println(name+age+grade);
 		
-		int age = 14;
-		String Name = "Nidhi";
-		String grade = "9th";
-		System.out.println(age+Name+grade);
-		
+			
 	}
+	
+	
+		
+	
+	
+	
+		
+		
+	
 	
 	public void getJobinfo() {
 		
@@ -60,7 +74,7 @@ public class MyJavaClass {
 		obj.getMyaddress();
 		obj.getMyfriendinfo();
 		obj.getEmployeeinfo();
-		MyJavaClass.getNidhiinfo();
+		
 		obj.getJobinfo();
 	}
 	
