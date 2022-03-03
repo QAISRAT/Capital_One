@@ -5,7 +5,7 @@ public class MyJavaClass {
 	int rent;
 	int zipcode;
 	String location;
-	
+	double value;
 	public void getMyaddress() {
 	
 		rent = 1500;
